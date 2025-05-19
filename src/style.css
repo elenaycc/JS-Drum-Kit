@@ -1,0 +1,44 @@
+/* Arka plan resmi */
+body {
+  background-color: darkred;
+  background-image: url('drum.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: brightness(0.7);
+}
+
+/* Başlık */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Buton stilleri */
+.drum-button {
+  font-size: 2rem;
+  padding: 20px;
+  margin: 10px;
+  border-color: white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Butona basılınca efekt */
+.drum-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 15px darkred;
+  border-color: darkred;
+}
